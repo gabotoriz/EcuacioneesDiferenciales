@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1117.0" prefWidth="1728.0" style="-fx-background-color: #0c3b2e;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ecuacionesjava.Controllers.MainController">
+   <Label layoutX="653.0" layoutY="102.0" prefHeight="62.0" prefWidth="422.0" text="Ecuaciones Diferenciales" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="953.0" AnchorPane.leftAnchor="653.0" AnchorPane.rightAnchor="653.0" AnchorPane.topAnchor="102.0">
+      <font>
+         <Font name="Rota-Regular" size="40.0" />
+      </font>
+   </Label>
+   <Label layoutX="603.0" layoutY="14.0" text="Universidad Tres Culturas" textAlignment="CENTER" textFill="WHITE" wrapText="true" AnchorPane.topAnchor="20.0">
+      <font>
+         <Font name="Rota-Regular" size="50.0" />
+      </font>
+   </Label>
+   <VBox alignment="CENTER" fillWidth="false" layoutX="746.0" layoutY="389.0" prefHeight="340.0" prefWidth="237.0" spacing="20.0" style="-fx-background-color: #fff; -fx-background-radius: 10; -fx-border-radius: 10;">
+      <MFXButton fx:id="BTN_Teoria" onAction="#toTeoria" rippleColor="#bb8a52" style="-fx-background-color: #6D9773;" text="Teoría" textFill="WHITE">
+         <font>
+            <Font name="Rota-Regular" size="24.0" />
+         </font>
+      </MFXButton>
+      <MFXButton fx:id="BTN_Ejemplos" layoutX="10.0" layoutY="10.0" onAction="#toEjemplos" rippleColor="#bb8a52" style="-fx-background-color: #6D9773;" text="Ejemplos" textFill="WHITE">
+         <font>
+            <Font name="Rota-Regular" size="24.0" />
+         </font>
+      </MFXButton>
+      <MFXButton fx:id="BTN_Cuestionario" layoutX="10.0" layoutY="27.0" onAction="#toCuestionary" rippleColor="#bb8a52" style="-fx-background-color: #6D9773;" text="Cuestionario" textFill="WHITE">
+         <font>
+            <Font name="Rota-Regular" size="24.0" />
+         </font>
+      </MFXButton>
+      <MFXButton fx:id="BTN_Salir" layoutX="10.0" layoutY="44.0" onAction="#toSalir" rippleColor="#bb8a52" style="-fx-background-color: #6D9773;" text="Salir" textFill="WHITE">
+         <font>
+            <Font name="Rota-Regular" size="24.0" />
+         </font>
+      </MFXButton>
+   </VBox>
+</AnchorPane>
