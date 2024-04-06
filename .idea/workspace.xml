@@ -4,38 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45463e94-04dd-4e57-bbca-f9b976c025a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/CuestionaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/EjemplosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/TeoriaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/DataBase/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/DataBase/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Cuestionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Created.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Insert.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Switcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Views.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/cuestionary-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/ejemplos-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/main-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/teoria-view.fxml" afterDir="false" />
+    <list default="true" id="45463e94-04dd-4e57-bbca-f9b976c025a3" name="Changes" comment="Creacion del proyecto">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Alter.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/CuestionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/CuestionaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/DataBase/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/DataBase/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Cuestionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/cuestionary-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/cuestionary-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gabotoriz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gabotoriz/EcuacioneesDiferenciales&quot;,
+    &quot;accountId&quot;: &quot;f0f23192-5f10-4855-ae32-fab0dd5d4c52&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -87,7 +78,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -123,7 +114,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -138,11 +130,45 @@
       <workItem from="1711655131226" duration="5365000" />
       <workItem from="1711836010967" duration="571000" />
       <workItem from="1712200349569" duration="6815000" />
-      <workItem from="1712235606928" duration="1541000" />
+      <workItem from="1712235606928" duration="3106000" />
+      <workItem from="1712324714434" duration="3076000" />
+      <workItem from="1712330358962" duration="196000" />
+      <workItem from="1712330579427" duration="1753000" />
+      <workItem from="1712358478875" duration="6194000" />
+      <workItem from="1712426640571" duration="333000" />
+      <workItem from="1712431074991" duration="8669000" />
     </task>
+    <task id="LOCAL-00001" summary="Creacion del proyecto">
+      <option name="closed" value="true" />
+      <created>1712237729754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712237729754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creacion del proyecto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion del proyecto" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

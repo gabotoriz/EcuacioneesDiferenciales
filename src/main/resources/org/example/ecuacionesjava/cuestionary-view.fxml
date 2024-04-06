@@ -1,14 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="org.example.ecuacionesjava.CuestionaryView"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1117.0" prefWidth="1728.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ecuacionesjava.Controllers.CuestionaryController">
+    <Pane fx:id="P_Usaurio" layoutX="679.0" layoutY="47.0" prefHeight="159.0" prefWidth="370.0">
+        <Label fx:id="L_Label" layoutX="117.0" layoutY="14.0" text="CREAR USUARIO">
+            <font>
+                <Font name="Rota-Regular" size="20.0" />
+            </font>
+        </Label>
+        <TextField fx:id="JTF_Usuario" layoutX="85.0" layoutY="53.0" prefHeight="30.0" prefWidth="200.0" />
+        <MFXButton fx:id="MFXB_Registrar" buttonType="RAISED" layoutX="135.0" layoutY="96.0" onAction="#registrarUser" onKeyPressed="#registrarUser" prefHeight="20.0" prefWidth="100.0" text="Registrar">
+            <font>
+                <Font name="Rota-Regular" size="20.0" />
+            </font>
+        </MFXButton>
+    </Pane>
+   <Pane fx:id="P_Questions" layoutX="30.0" layoutY="275.0" prefHeight="568.0" prefWidth="1669.0">
+      <children>
+         <VBox fx:id="VB_Question1" alignment="CENTER" fillWidth="false" layoutX="235.0" layoutY="84.0" prefHeight="200.0" prefWidth="400.0" spacing="10.0">
+            <children>
+               <Label text="1, Una ecuacion es homogenea cuando:">
+                  <font>
+                     <Font name="Rota-Regular" size="20.0" />
+                  </font>
+               </Label>
+               <MFXComboBox prefWidth="300.0" />
+               <MFXButton prefWidth="100.0" text="Enviar" />
+            </children>
+         </VBox>
+         <VBox fx:id="VB_Question2" alignment="CENTER" fillWidth="false" layoutX="635.0" layoutY="84.0" prefHeight="200.0" prefWidth="400.0" spacing="10.0">
+            <children>
+               <Label prefHeight="48.0" prefWidth="400.0" text="2. ¿Que describe una ecuacion diferencial con condiciones iniciales?" textAlignment="CENTER" wrapText="true">
+                  <font>
+                     <Font name="Rota-Regular" size="20.0" />
+                  </font>
+               </Label>
+               <MFXComboBox prefWidth="300.0" />
+               <MFXButton prefWidth="100.0" text="Enviar" />
+            </children>
+         </VBox>
+         <VBox fx:id="VB_Question3" alignment="CENTER" fillWidth="false" layoutX="1035.0" layoutY="84.0" prefHeight="200.0" prefWidth="400.0" spacing="10.0">
+            <children>
+               <Label text="3. ¿Por que una ED lineal es homogenea?">
+                  <font>
+                     <Font name="Rota-Regular" size="20.0" />
+                  </font>
+               </Label>
+               <MFXComboBox prefWidth="300.0" />
+               <MFXButton prefWidth="100.0" text="Enviar" />
+            </children>
+         </VBox>
+         <VBox fx:id="VB_Question4" alignment="CENTER" fillWidth="false" layoutX="450.0" layoutY="284.0" prefHeight="200.0" prefWidth="400.0" spacing="10.0">
+            <children>
+               <Label text="4. ¿Cuales son los tipos de ED?">
+                  <font>
+                     <Font name="Rota-Regular" size="20.0" />
+                  </font>
+               </Label>
+               <MFXComboBox prefWidth="300.0" />
+               <MFXButton prefWidth="100.0" text="Enviar" />
+            </children>
+         </VBox>
+         <VBox fx:id="VB_Question5" alignment="CENTER" fillWidth="false" layoutX="850.0" layoutY="284.0" prefHeight="200.0" prefWidth="400.0" spacing="10.0">
+            <children>
+               <Label text="5. ¿A que se refiere el grado de una ED?">
+                  <font>
+                     <Font name="Rota-Regular" size="20.0" />
+                  </font>
+               </Label>
+               <MFXComboBox prefWidth="300.0" />
+               <MFXButton prefWidth="100.0" text="Enviar" />
+            </children>
+         </VBox>
+      </children>
+   </Pane>
 </AnchorPane>

@@ -6,7 +6,7 @@ import lombok.experimental.FieldDefaults;
 
 import java.sql.*;
 
-@NoArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Database {
     static Settings settings = Settings.getInstance();
