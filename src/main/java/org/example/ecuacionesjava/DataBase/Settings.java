@@ -10,7 +10,7 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Settings {
     public static Settings instancia;
-    String DataBase = "Ecuaciones";
+    String DataBase = "ecuaciones";
     String User = "root";
     String Password = "Gabo230105302.";
     String Driver = "com.mysql.cj.jdbc.Driver";

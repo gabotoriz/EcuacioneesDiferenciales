@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1117.0"
+            prefWidth="1728.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.ecuacionesjava.Controllers.FormController">
+    <Pane layoutX="60.0" layoutY="22.0" prefHeight="145.0" prefWidth="600.0" AnchorPane.leftAnchor="60.0"
+          AnchorPane.topAnchor="22.0">
+        <Label layoutX="255.0" layoutY="27.0" text="Registrar Usuario">
+            <font>
+                <Font name="Rota-Regular" size="18.0"/>
+            </font>
+        </Label>
+        <Label fx:id="L_Usuario" layoutX="280.0" layoutY="71.0" text="Usuario">
+            <font>
+                <Font name="Rota-Regular" size="18.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="JTF_Usuario" alignment="CENTER" layoutX="200.0" layoutY="105.0" prefHeight="30.0"
+                   prefWidth="200.0"/>
+        <MFXButton fx:id="BTN_RegistrarUsuario" layoutX="484.0" layoutY="108.0" onAction="#insertIntoUser"
+                   text="Registrar"/>
+    </Pane>
+    <Pane fx:id="P_Questions" layoutX="60.0" layoutY="167.0" prefHeight="600.0" prefWidth="1400.0" visible="false"
+          AnchorPane.bottomAnchor="350.0">
+        <VBox alignment="CENTER" fillWidth="false" layoutX="63.0" layoutY="73.0" prefHeight="126.0"
+              prefWidth="314.0" spacing="10.0">
+            <Label fx:id="L_Question1" text="1. "/>
+            <MFXComboBox fx:id="CB_Answer1" prefHeight="39.0" prefWidth="260.0"/>
+        </VBox>
+        <VBox alignment="CENTER" fillWidth="false" layoutX="63.0" layoutY="237.0" prefHeight="126.0"
+              prefWidth="314.0" spacing="10.0">
+            <Label fx:id="L_Question2" text="1. "/>
+            <MFXComboBox fx:id="CB_Answer2" prefHeight="39.0" prefWidth="260.0"/>
+        </VBox>
+        <VBox alignment="CENTER" fillWidth="false" layoutX="1014.0" layoutY="73.0" prefHeight="126.0"
+              prefWidth="314.0" spacing="10.0">
+            <Label fx:id="L_Question3" text="1. "/>
+            <MFXComboBox fx:id="CB_Answer3" prefHeight="39.0" prefWidth="260.0"/>
+        </VBox>
+        <VBox alignment="CENTER" fillWidth="false" layoutX="700.0" layoutY="73.0" prefHeight="126.0"
+              prefWidth="314.0" spacing="10.0">
+            <Label fx:id="L_Question4" text="1. "/>
+            <MFXComboBox fx:id="CB_Answer4" prefHeight="39.0" prefWidth="260.0"/>
+        </VBox>
+        <VBox alignment="CENTER" fillWidth="false" layoutX="397.0" layoutY="73.0" prefHeight="126.0"
+              prefWidth="314.0" spacing="10.0">
+            <Label fx:id="L_Question5" text="1. "/>
+            <MFXComboBox fx:id="CB_Answer5" prefHeight="39.0" prefWidth="260.0"/>
+        </VBox>
+        <MFXButton fx:id="BTN_Registrar" layoutX="527.0" layoutY="288.0" onAction="#insertIntoCuestionary"
+                   text="Registrar"/>
+    </Pane>
+</AnchorPane>

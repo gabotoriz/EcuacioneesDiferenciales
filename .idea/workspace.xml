@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45463e94-04dd-4e57-bbca-f9b976c025a3" name="Changes" comment="Creacion del proyecto">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Alter.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="45463e94-04dd-4e57-bbca-f9b976c025a3" name="Changes" comment="Se agregaron las clases necesariias">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/FormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Answers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Cuestionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/form-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/CuestionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/CuestionaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/DataBase/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/DataBase/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Cuestionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/SQL/Tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/cuestionary-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/cuestionary-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/CuestionaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/DataBase/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/DataBase/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Views.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ecuacionesjava/Views.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/cuestionary-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/ecuacionesjava/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +96,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabtr\IdeaProjects\EcuacionesJava\src\main\resources\org\example\ecuacionesjava" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ecuacionesjava.MainApplication" />
@@ -136,7 +146,15 @@
       <workItem from="1712330579427" duration="1753000" />
       <workItem from="1712358478875" duration="6194000" />
       <workItem from="1712426640571" duration="333000" />
-      <workItem from="1712431074991" duration="8669000" />
+      <workItem from="1712431074991" duration="11082000" />
+      <workItem from="1712544199462" duration="1918000" />
+      <workItem from="1712546277471" duration="1793000" />
+      <workItem from="1712549276427" duration="723000" />
+      <workItem from="1712667845437" duration="4233000" />
+      <workItem from="1712706781646" duration="2578000" />
+      <workItem from="1712709496066" duration="9453000" />
+      <workItem from="1712766207959" duration="440000" />
+      <workItem from="1712810248350" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion del proyecto">
       <option name="closed" value="true" />
@@ -146,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712237729754</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se agregaron las clases necesariias">
+      <option name="closed" value="true" />
+      <created>1712443678985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712443678985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion del proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion del proyecto" />
+    <MESSAGE value="Se agregaron las clases necesariias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron las clases necesariias" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

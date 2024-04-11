@@ -22,13 +22,13 @@ public class User {
     String Name;
     static User instancia;
 
-    public boolean insertIntoUser(String _Name) {
+    public void insertIntoUser(String _Name) {
         Database database = Database.getInstance();
         Connection connection = database.getConnection();
         PreparedStatement ps_insert = null, ps_select = null;
         ResultSet rs_select = null;
-        String select = "select * from ecuaciones.user where Nombre = ?";
-        String insert = "INSERT INTO ecuaciones.user (Nombre) VALUES (?)";
+        String select = "select * from ecuaciones.users where User = ?";
+        String insert = "INSERT INTO ecuaciones.users (User) VALUES (?)";
         try {
             if (connection != null) {
                 ps_select = connection.prepareStatement(select);
@@ -48,7 +48,35 @@ public class User {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        return false;
+    }
+
+    public int getUsers(String Usuario) {
+        Database database = Database.getInstance();
+        Connection connection = database.getConnection();
+        PreparedStatement ps_select;
+        ResultSet resultSet;
+        int idUser = 0;
+        String select = "SELECT * FROM ecuaciones.users where User = ?";
+        try {
+            if (connection != null) {
+                ps_select = connection.prepareStatement(select);
+                ps_select.setString(1, Usuario);
+                resultSet = ps_select.executeQuery();
+                while (resultSet.next()) {
+                    idUser = resultSet.getInt(1);
+                    String name = resultSet.getString(2);
+                    User user = new User(idUser, name);
+
+                }
+
+            }
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return idUser;
+
+
     }
 
     public static User getInstance() {

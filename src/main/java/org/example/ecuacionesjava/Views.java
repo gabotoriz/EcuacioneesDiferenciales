@@ -12,8 +12,6 @@ public enum Views {
     Main("main-view.fxml"),
     Theory("teoria-view.fxml"),
     Examples("ejemplos-view.fxml"),
-    Cuestionary("cuestionary-view.fxml")
-
-    ;
+    Cuestionary("form-view.fxml");
     String FileName;
 }

@@ -2,13 +2,19 @@ package org.example.ecuacionesjava.Controllers;
 
 import io.github.palexdev.materialfx.controls.MFXButton;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import lombok.AccessLevel;
+import lombok.Getter;
 import lombok.experimental.FieldDefaults;
 import org.example.ecuacionesjava.Switcher;
 import org.example.ecuacionesjava.Views;
 
+import java.net.URL;
+import java.util.ResourceBundle;
+
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class MainController {
+@Getter
+public class MainController implements Initializable {
     @FXML
     MFXButton BTN_Ejemplos;
     @FXML
@@ -17,6 +23,7 @@ public class MainController {
     MFXButton BTN_Salir;
     @FXML
     MFXButton BTN_Teoria;
+
 
     public void toTeoria() {
         Switcher.switchTo(Views.Theory);
@@ -32,5 +39,9 @@ public class MainController {
 
     public void toSalir() {
         System.exit(1);
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
     }
 }
